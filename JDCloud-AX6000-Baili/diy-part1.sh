@@ -20,3 +20,4 @@
 git clone https://github.com/messense/aliyundrive-webdav package/messense
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone -b main https://github.com/ilxp/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
