@@ -8,6 +8,10 @@
 
 ### 刷砖也不怕！可以通过串口救砖：[MediaTek Filogic 系列路由器串口救砖教程](https://www.cnblogs.com/p123/p/18046679)
 ---
+https://github.com/immortalwrt/immortalwrt
+
+https://github.com/openwrt/openwrt
+---
 ## JDCloud-AX6000-Baili workflow 手动运行可选项：
 - Choose mt_wifi firmware
 - Choose warp firmware
