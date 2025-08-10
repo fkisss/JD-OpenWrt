@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############手动修改##############
-name: JDCloud-AX6000-Baili-hanwckf
+name: JDCloud-AX6000-Baili-immortalwrt237
 
 on:
   repository_dispatch:
@@ -18,24 +18,6 @@ on:
         description: 'Set LAN IP Address'
         required: true
         default: '192.168.3.1'
-      WIFI_DRIVER:
-        description: 'Choose WiFi Driver'
-        required: true
-        default: 'v7.6.7.2-fw-20240823(recommend)'
-        type: choice
-        options:
-        - v7.6.7.2-fw-20240823(recommend)
-        - v7.6.6.1-fw-20230808(recommend)
-        - v7.6.7.2-fw-default
-        - v7.6.7.2-fw-20221208
-        - v7.6.7.2-fw-20230421
-        - v7.6.7.2-fw-20230808
-        - v7.6.7.2-fw-20231024
-        - v7.6.6.1-fw-default
-        - v7.6.6.1-fw-20221208
-        - v7.6.6.1-fw-20230421
-        - v7.6.6.1-fw-20231024
-        - v7.6.6.1-fw-20240823
       SW_DRIVER:
         description: 'Choose Switch Driver'
         required: true
@@ -63,9 +45,9 @@ on:
 
 env:
   ###############手动修改##############
-  OPENWRT_NAME: hanwckf
-  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
-  REPO_BRANCH: openwrt-21.02
+  OPENWRT_NAME: immortalwrt237
+  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
+  REPO_BRANCH: openwrt-24.10-6.6
   FEEDS_CONF: JDCloud-AX6000-Baili-hanwckf/feeds.conf.default
   CONFIG_FILE: JDCloud-AX6000-Baili-hanwckf/.mtwifi-cfg.config
   DIY_P1_SH: JDCloud-AX6000-Baili-hanwckf/diy-part1.sh
